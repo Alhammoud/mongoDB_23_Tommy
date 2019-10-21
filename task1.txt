@@ -1,0 +1,12 @@
+Use a node-cli script to extract data from mongodb, filter it and write to CSV format.
+- Create generateCsv.js
+- Inside: connect to mongodb
+- Query for all records where noxevent > 20
+CSV are build like this
+column1,column2,column3\n
+value11,value12,value13\n
+value21,value22,value23\n
+value31,value32,value33\n
+Create a csv wit the following fields:
+`r3000,r5000,noxevent,r2000,coevent,system_time,gps_time,latitude,longitude
+15,27,181,28,3,2018-03-06 14:26:32.468370,14:26:32,52.565067166666665,13.409508333333333`

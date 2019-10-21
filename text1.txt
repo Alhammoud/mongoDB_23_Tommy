@@ -1,0 +1,32 @@
+
+
+mongoimport --host=mongodb1.example.net --port=37017 --username=zohir --collection=airquality --db=sensordata --file=/opt/backups/mdb1-examplenet.json
+
+
+
+
+
+
+mongoimport --host=mongodb1.example.net --port=37017 --username=zohir --collection=contacts --db=marketing --file=/opt/backups/mdb1-examplenet.json
+
+mongoimport --host=cluster0-rrnut.mongodb.net --port=37017 --username=zohir --collection=contacts --db=marketing --file=/opt/backups/mdb1-examplenet.json
+
+
+mongoimport --host=mongodb1.example.net --port=37017 --username=user --collection=contacts --db=marketing --file=/opt/backups/mdb1-examplenet.json
+
+
+
+mongodb+srv://zohir:u,KY$yb-44priph@cluster0-rrnut.mongodb.net/test
+
+
+u,KY$yb-44priph
+
+
+mongoimport --host=ds111410.mlab.com --port=11410 --username=adm -p "u,KY$yb-44priph" --collection=airquality --db=machinery --file=/opt/backups/mdb1-examplenet.json
+
+
+Tommy 11:49 Uhr
+
+mongoimport -h ds111410.mlab.com:11410 -d machinery -u admin -p "vf\!BkrIgL7si*G"
+
+mongo://admin:vf!BkrIgL7si*G@ds111410.mlab.com:11410/machinery

@@ -1,0 +1,4 @@
+mongodb://testuser:Wa6555DMJUBqoQ@ds111410.mlab.com:11410/machinery
+
+
+mongoimport -h localhost:27017 -d testdb --collection=airquality out3.json --jsonArray
