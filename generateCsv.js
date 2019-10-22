@@ -102,7 +102,8 @@ mongoose.connect(process.env.MONGOURL, {
 
     await fs.writeFileSync('./file.csv',csvContent);
 
-    console.log( " Export done ..!")
+    console.log( " Export done ..!");
+    process.exit();
 
 
     }
